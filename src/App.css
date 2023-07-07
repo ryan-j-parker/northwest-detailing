@@ -54,7 +54,6 @@
   max-width: 600px;
   text-align: right;
   margin: 1em 0;
-  border: 1px dotted hotpink;
   position: fixed;
   z-index: 3;
   top: 40%;
@@ -88,4 +87,11 @@
   width: 100%;
   position: fixed;
   width: 100vw;
+}
+
+.button:hover {
+  border: 1px solid white;
+  background-color: black;
+  color: gold;
+  transition: 0.25s;
 }
